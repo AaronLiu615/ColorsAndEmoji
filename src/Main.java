@@ -24,5 +24,11 @@ public class Main
         //try {
         //  harry.animate();
         //} catch (Exception e) { }
+
+        MyEmoji monke = new MyEmoji("Larry");
+        monke.introduce();
+        try {
+            monke.animate();
+        } catch (Exception e) { }
     }
 }
